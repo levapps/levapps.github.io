@@ -29,3 +29,7 @@ hugo server
 
 # site runs at address http://localhost:1313/, just 'command + click'
 ```
+
+## Blueprint pipeline
+
+https://github.com/actions/starter-workflows/blob/main/pages/hugo.yml
