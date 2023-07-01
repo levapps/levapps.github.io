@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Description text: levapps.com"
+description: "Description text:"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -36,4 +36,4 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-## Some new text on post
+Post test
