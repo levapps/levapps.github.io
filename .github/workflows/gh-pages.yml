@@ -1,13 +1,23 @@
-name: GitHub Pages
+name: Build GH-Pages
 
 on:
   push:
+    paths-ignore:
+      - "images/**"
+      - "assets/**"
+      - "LICENSE"
+      - "README.md"
     branches:
-      - main  # Set a branch to deploy
-  pull_request:
+      - main
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  deploy:
+  build-deploy:
     runs-on: ubuntu-22.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
