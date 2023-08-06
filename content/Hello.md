@@ -1,10 +1,10 @@
 ---
-title: "My 1st post"
-date: 2020-09-15T11:30:03+00:00
+title: "Initial Post"
+date: {{ .Date }}
 # weight: 1
 # aliases: ["/first"]
 tags: ["first"]
-author: "Me"
+author: "Lev Pa"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
@@ -36,4 +36,6 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-Post test
+My new text and test image:
+
+![test image](../assets/Death_star1.png)
