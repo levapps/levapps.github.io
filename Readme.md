@@ -8,6 +8,15 @@ go to this repo and do steps from installation link: https://gohugo.io/installat
 
 ## Theme setup
 
+```sh
+# Install:
+git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+git submodule update --init --recursive # needed when you reclone your repo (submodules may not get cloned automatically)
+
+# update
+git submodule update --remote --merge
+```
+
 go to this repo and do steps from PaperMod - Installation link: https://github.com/adityatelange/hugo-PaperMod/tree/master
 
 `install theme as shown in Method 2: git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod`
