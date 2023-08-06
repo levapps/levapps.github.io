@@ -1,6 +1,6 @@
 ---
 title: "Initial Post"
-date: {{ .Date }}
+date: 2023-08-07T22:20:00+03:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["first"]
